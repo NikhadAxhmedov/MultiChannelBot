@@ -12,7 +12,7 @@
 
 3. Pyrogram yüklə
    ```markdown
-   pip3 install -U pyrogram
+   pip3 install -U -r requirements.txt
     ```
 4. Config faylını yığ 
     ```markdown
