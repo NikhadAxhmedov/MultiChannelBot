@@ -1,0 +1,98 @@
+Skip to content
+NikhadAxhmedov
+/
+ASOsongbot
+Public
+forked from ZamannIsmiyev/ASOsongbot
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ASOsongbot/app.json
+@ZamannIsmiyev
+ZamannIsmiyev Update app.json
+ 2 contributors
+64 lines (64 sloc)  1.8 KB
+{
+    "name": "ASOSongBot",
+    "description": "Telegram müzik indirme botu.",
+    "logo": "https://telegra.ph/file/ce31f843b674aeb14064a.jpg",
+    "keywords": [
+        "Moon",
+        "Music",
+        "Bot"
+    ],
+    "repository": "https://github.com/Gecekus/musicdowload",
+    "success_url": "https://github.com/Gecekus/musicdowload",
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "API_ID": {
+            "description": "my.telegram.org dan ala bilirsiniz.",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "my.telegram.org dan ala bilirsiniz.",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "@Botfather botundan ala bilirsiniz.",
+            "value": "",
+            "required": true
+        },
+        "PLAYLIST_NAME": {
+            "description": "Playlist kanalının kullanıcı adını @ bu işareti olmadan yazın.",
+            "value": "",
+            "required": true
+        },
+        "PLAYLIST_ID": {
+            "description": "Playlist kanalının ID-ni yazın.",
+            "value": "",
+            "required": true
+        },
+        "BOT_OWNER": {
+            "description": "Kendi kullanıcı adınızı @ bu işareti olmadan yazın.",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Botun kullanıcı adını @ bu işareti olmadan yazın.",
+            "value": "",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+ASOsongbot/app.json at main · NikhadAxhmedov/ASOsongbot
