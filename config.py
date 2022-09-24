@@ -1,16 +1,16 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 class Data:
-    BOT_TOKEN = "131321321:asdasdadadasdasd"
-    API_ID = 1234567
-    API_HASH = "asd1a65d1a65d1a6dsasd6as5d1a6s5d6as"
+    BOT_TOKEN = "5777581844:AAGNoV4zJDjvf8B-NgUCXN7SE0ZIYKg11TU"
+    API_ID = "15119160"
+    API_HASH = "09e5d38c795b4fc31b633d5adb4ce997"
     TEXT = """☺️ Salam dostum necəsən?
 
 🔔 Mən İstək qəbul edici botam
 """
     BUTONLAR = InlineKeyboardMarkup([
-                            [InlineKeyboardButton(text="ᴍᴜʟᴛɪ ᴀᴢ ᴏғғɪᴄɪᴀʟ", url="t.me/MultiAzOfficial"), 
-                            InlineKeyboardButton(text="ᴍᴜʟᴛɪᴀᴢ ᴘʟᴀʏʟɪsᴛ", url="https://t.me/MultiPlaylist")
+                            [InlineKeyboardButton(text="ɴɪ̇xʜᴀᴅ", url="t.me/Nixhadx"), 
+                            InlineKeyboardButton(text="ᴘᴏsᴇɪ̇ᴅᴏɴ ᴘʟᴀʏʟɪ̇sᴛ ", url="https://t.me/PoseidonSongplaylist")
                             ],[
-                            InlineKeyboardButton(text='sᴀʜɪʙɪᴍ', url='http://t.me/Guliyev_Di')
+                            InlineKeyboardButton(text='sᴀʜɪ̇ʙɪ̇ᴍ', url='http://t.me/Nixhadj')
                             ]])
